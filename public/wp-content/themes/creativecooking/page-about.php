@@ -9,7 +9,7 @@ Template Name: About Page
   	<h1><?php the_title(); ?></h1>
  	<?php the_content(); ?>
 
-
+<h1>ABOUT PAGE</h1>
   <?php endwhile; else: ?>
     <p>Sorry, no pages matched your criteria.</p>
 <?php endif; ?>
