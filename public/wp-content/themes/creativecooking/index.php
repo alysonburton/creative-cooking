@@ -7,7 +7,7 @@
       		<?php the_title(); ?>
       	</a>
       </h2>
-
+<h1>INDEX.PHP</h1>
 <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>
