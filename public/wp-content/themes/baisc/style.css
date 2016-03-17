@@ -6,16 +6,30 @@
 
 html {
 	background-color: white;
+	font-family: Ingra;
 }
 
+#header {
+	background-color: white;
+	opacity: .3;
+}
 
+#header:hover {
+	opacity: .8;
+}
+
+#header a {
+	color: black;
+}
 #header a:hover{
 	background-color: #7DFFC7;
 }
 
 #header a:active {
-	background-color: 
+	background-color: #00B48F;
 }
+
+
 .logo {
 	margin-top: -5px;
 }

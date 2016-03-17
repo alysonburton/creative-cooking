@@ -8,10 +8,13 @@
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 	<?php wp_head();?>
+	<script src="https://use.typekit.net/ncu1qsp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body style="background-color:<?php the_field('color', 'option'); ?>">
  	
-		<nav class="navbar navbar-default" id="header">
+		<nav class="navbar navbar-fixed-top" id="header">
+			<div class="container">
   			 
 			      <a class="navbar-brand" href="http://localhost/creative-cooking/public/">
 			        <img alt="Brand" src="<?php bloginfo('template_url'); ?>/images/fuckinglogo_small-03.png" class="logo">
@@ -32,6 +35,7 @@
 				        </div>
 				        <button type="submit" class="btn btn-default">Submit</button>
 				      </form>
+			      </div>
      
  		</nav>
 
