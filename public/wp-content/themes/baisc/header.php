@@ -10,5 +10,30 @@
 	<?php wp_head();?>
 </head>
 <body style="background-color:<?php the_field('color', 'option'); ?>">
-  <div class="content">
-cats
+ 	
+		<nav class="navbar navbar-default" id="header">
+  			 
+			      <a class="navbar-brand" href="http://localhost/creative-cooking/public/">
+			        <img alt="Brand" src="<?php bloginfo('template_url'); ?>/images/fuckinglogo_small-03.png" class="logo">
+			      </a>
+  
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class=><a href="http://localhost/creative-cooking/public/about/">About<span class="sr-only">(current)</span></a></li>
+				        <li><a href="http://localhost/creative-cooking/public/recipes/">Recipes</a></li>
+				         <li><a href="http://localhost/creative-cooking/public/contact/">Contact</a></li>
+				         <li><a href="http://localhost/creative-cooking/public/faq/">FAQ</a></li>
+
+				      
+				      </ul>
+				      <form class="nav navbar-form navbar-right" role="search">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+				      </form>
+     
+ 		</nav>
+
+
+

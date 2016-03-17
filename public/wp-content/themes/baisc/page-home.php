@@ -5,36 +5,9 @@ Template Name: Home Page
 ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-vjgfjhfhjf,hjkfkjhfk
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-  <div class="carousel-inner">
-
-	<?php 
-
-	$i = 1;
-
-	if (have_rows('slideshow') ): while ( have_rows('slideshow') ) : the_row(); ?>
-
-		<div class="item <?php if($i == 1){echo 'active'; } ?>">
-	     <img src="<?php the_sub_field('image'); ?>" alt=""> 
-	    </div>
-
-	    <?php $i++; ?>
-
-	 <?php endwhile; endif; ?>
-
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
+  <img src="<?php bloginfo('template_url'); ?>/images/cover_image.jpg" class="logo"" alt="">
+  
 
 
 
